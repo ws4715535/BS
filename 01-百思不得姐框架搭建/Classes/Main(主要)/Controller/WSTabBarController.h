@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WSTabBarController.h
 //  01-百思不得姐框架搭建
 //
 //  Created by Ws on 15/12/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WSTabBarController : UITabBarController
 
 @end
-

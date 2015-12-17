@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WSTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //设置window的rootController
+    WSTabBarController *rootController = [[WSTabBarController alloc]init];
+    self.window.rootViewController = rootController; 
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

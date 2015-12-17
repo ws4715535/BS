@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54BAEADF1C22D068004F9DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEADE1C22D068004F9DA7 /* main.m */; };
-		54BAEAE21C22D068004F9DA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEAE11C22D068004F9DA7 /* AppDelegate.m */; };
-		54BAEAE51C22D068004F9DA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEAE41C22D068004F9DA7 /* ViewController.m */; };
 		54BAEAE81C22D068004F9DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BAEAE61C22D068004F9DA7 /* Main.storyboard */; };
 		54BAEAEA1C22D068004F9DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BAEAE91C22D068004F9DA7 /* Assets.xcassets */; };
 		54BAEAED1C22D068004F9DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BAEAEB1C22D068004F9DA7 /* LaunchScreen.storyboard */; };
+		54BAEB0D1C22D1E9004F9DA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB071C22D1E9004F9DA7 /* AppDelegate.m */; };
+		54BAEB0E1C22D1E9004F9DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB081C22D1E9004F9DA7 /* main.m */; };
+		54BAEB151C22DDDE004F9DA7 /* WSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB141C22DDDE004F9DA7 /* WSTabBarController.m */; };
+		54BAEB181C22DE35004F9DA7 /* WSEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB171C22DE35004F9DA7 /* WSEssenceController.m */; };
+		54BAEB1B1C22DE7C004F9DA7 /* WSFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB1A1C22DE7C004F9DA7 /* WSFriendController.m */; };
+		54BAEB1E1C22DE91004F9DA7 /* WSMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB1D1C22DE91004F9DA7 /* WSMeController.m */; };
+		54BAEB211C22DE9E004F9DA7 /* WSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB201C22DE9E004F9DA7 /* WSNewController.m */; };
+		54BAEB241C22DEAE004F9DA7 /* WSPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB231C22DEAE004F9DA7 /* WSPublishController.m */; };
+		54BAEB281C22E89D004F9DA7 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54BAEADA1C22D068004F9DA7 /* 01-百思不得姐框架搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-百思不得姐框架搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54BAEADE1C22D068004F9DA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54BAEAE01C22D068004F9DA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		54BAEAE11C22D068004F9DA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54BAEAE31C22D068004F9DA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54BAEAE41C22D068004F9DA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		54BAEAE71C22D068004F9DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54BAEAE91C22D068004F9DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54BAEAEC1C22D068004F9DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54BAEAEE1C22D068004F9DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54BAEB061C22D1E9004F9DA7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54BAEB071C22D1E9004F9DA7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54BAEB081C22D1E9004F9DA7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54BAEB131C22DDDE004F9DA7 /* WSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTabBarController.h; sourceTree = "<group>"; };
+		54BAEB141C22DDDE004F9DA7 /* WSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTabBarController.m; sourceTree = "<group>"; };
+		54BAEB161C22DE35004F9DA7 /* WSEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSEssenceController.h; sourceTree = "<group>"; };
+		54BAEB171C22DE35004F9DA7 /* WSEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSEssenceController.m; sourceTree = "<group>"; };
+		54BAEB191C22DE7C004F9DA7 /* WSFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSFriendController.h; sourceTree = "<group>"; };
+		54BAEB1A1C22DE7C004F9DA7 /* WSFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSFriendController.m; sourceTree = "<group>"; };
+		54BAEB1C1C22DE91004F9DA7 /* WSMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMeController.h; sourceTree = "<group>"; };
+		54BAEB1D1C22DE91004F9DA7 /* WSMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMeController.m; sourceTree = "<group>"; };
+		54BAEB1F1C22DE9E004F9DA7 /* WSNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNewController.h; sourceTree = "<group>"; };
+		54BAEB201C22DE9E004F9DA7 /* WSNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNewController.m; sourceTree = "<group>"; };
+		54BAEB221C22DEAE004F9DA7 /* WSPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPublishController.h; sourceTree = "<group>"; };
+		54BAEB231C22DEAE004F9DA7 /* WSPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPublishController.m; sourceTree = "<group>"; };
+		54BAEB261C22E89D004F9DA7 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
+		54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,7 @@
 		54BAEADC1C22D068004F9DA7 /* 01-百思不得姐框架搭建 */ = {
 			isa = PBXGroup;
 			children = (
-				54BAEAE01C22D068004F9DA7 /* AppDelegate.h */,
-				54BAEAE11C22D068004F9DA7 /* AppDelegate.m */,
-				54BAEAE31C22D068004F9DA7 /* ViewController.h */,
-				54BAEAE41C22D068004F9DA7 /* ViewController.m */,
+				54BAEAF41C22D1E9004F9DA7 /* Classes */,
 				54BAEAE61C22D068004F9DA7 /* Main.storyboard */,
 				54BAEAE91C22D068004F9DA7 /* Assets.xcassets */,
 				54BAEAEB1C22D068004F9DA7 /* LaunchScreen.storyboard */,
@@ -74,9 +89,240 @@
 		54BAEADD1C22D068004F9DA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				54BAEADE1C22D068004F9DA7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54BAEAF41C22D1E9004F9DA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB0F1C22DDC0004F9DA7 /* Main(主要) */,
+				54BAEAF51C22D1E9004F9DA7 /* Essence(精华) */,
+				54BAEAF91C22D1E9004F9DA7 /* FriendTrend(关注) */,
+				54BAEAFD1C22D1E9004F9DA7 /* Me(我) */,
+				54BAEB011C22D1E9004F9DA7 /* New(新帖) */,
+				54BAEB051C22D1E9004F9DA7 /* Other */,
+				54BAEB091C22D1E9004F9DA7 /* Publish(发布) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		54BAEAF51C22D1E9004F9DA7 /* Essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEAF61C22D1E9004F9DA7 /* Controller */,
+				54BAEAF71C22D1E9004F9DA7 /* Model */,
+				54BAEAF81C22D1E9004F9DA7 /* View */,
+			);
+			path = "Essence(精华)";
+			sourceTree = "<group>";
+		};
+		54BAEAF61C22D1E9004F9DA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB161C22DE35004F9DA7 /* WSEssenceController.h */,
+				54BAEB171C22DE35004F9DA7 /* WSEssenceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54BAEAF71C22D1E9004F9DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54BAEAF81C22D1E9004F9DA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BAEAF91C22D1E9004F9DA7 /* FriendTrend(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEAFA1C22D1E9004F9DA7 /* Controller */,
+				54BAEAFB1C22D1E9004F9DA7 /* Model */,
+				54BAEAFC1C22D1E9004F9DA7 /* View */,
+			);
+			path = "FriendTrend(关注)";
+			sourceTree = "<group>";
+		};
+		54BAEAFA1C22D1E9004F9DA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB191C22DE7C004F9DA7 /* WSFriendController.h */,
+				54BAEB1A1C22DE7C004F9DA7 /* WSFriendController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54BAEAFB1C22D1E9004F9DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54BAEAFC1C22D1E9004F9DA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BAEAFD1C22D1E9004F9DA7 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEAFE1C22D1E9004F9DA7 /* Controller */,
+				54BAEAFF1C22D1E9004F9DA7 /* Model */,
+				54BAEB001C22D1E9004F9DA7 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		54BAEAFE1C22D1E9004F9DA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB1C1C22DE91004F9DA7 /* WSMeController.h */,
+				54BAEB1D1C22DE91004F9DA7 /* WSMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54BAEAFF1C22D1E9004F9DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54BAEB001C22D1E9004F9DA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BAEB011C22D1E9004F9DA7 /* New(新帖) */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB021C22D1E9004F9DA7 /* Controller */,
+				54BAEB031C22D1E9004F9DA7 /* Model */,
+				54BAEB041C22D1E9004F9DA7 /* View */,
+			);
+			path = "New(新帖)";
+			sourceTree = "<group>";
+		};
+		54BAEB021C22D1E9004F9DA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB1F1C22DE9E004F9DA7 /* WSNewController.h */,
+				54BAEB201C22DE9E004F9DA7 /* WSNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54BAEB031C22D1E9004F9DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54BAEB041C22D1E9004F9DA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BAEB051C22D1E9004F9DA7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB251C22E87E004F9DA7 /* Category */,
+				54BAEB061C22D1E9004F9DA7 /* AppDelegate.h */,
+				54BAEB071C22D1E9004F9DA7 /* AppDelegate.m */,
+				54BAEB081C22D1E9004F9DA7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		54BAEB091C22D1E9004F9DA7 /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB0A1C22D1E9004F9DA7 /* Controller */,
+				54BAEB0B1C22D1E9004F9DA7 /* Model */,
+				54BAEB0C1C22D1E9004F9DA7 /* View */,
+			);
+			path = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+		54BAEB0A1C22D1E9004F9DA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB221C22DEAE004F9DA7 /* WSPublishController.h */,
+				54BAEB231C22DEAE004F9DA7 /* WSPublishController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54BAEB0B1C22D1E9004F9DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54BAEB0C1C22D1E9004F9DA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BAEB0F1C22DDC0004F9DA7 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB101C22DDC0004F9DA7 /* Controller */,
+				54BAEB111C22DDC0004F9DA7 /* Model */,
+				54BAEB121C22DDC0004F9DA7 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		54BAEB101C22DDC0004F9DA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB131C22DDDE004F9DA7 /* WSTabBarController.h */,
+				54BAEB141C22DDDE004F9DA7 /* WSTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54BAEB111C22DDC0004F9DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54BAEB121C22DDC0004F9DA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BAEB251C22E87E004F9DA7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				54BAEB261C22E89D004F9DA7 /* UIImage+Original.h */,
+				54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +396,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54BAEAE51C22D068004F9DA7 /* ViewController.m in Sources */,
-				54BAEAE21C22D068004F9DA7 /* AppDelegate.m in Sources */,
-				54BAEADF1C22D068004F9DA7 /* main.m in Sources */,
+				54BAEB281C22E89D004F9DA7 /* UIImage+Original.m in Sources */,
+				54BAEB181C22DE35004F9DA7 /* WSEssenceController.m in Sources */,
+				54BAEB1E1C22DE91004F9DA7 /* WSMeController.m in Sources */,
+				54BAEB151C22DDDE004F9DA7 /* WSTabBarController.m in Sources */,
+				54BAEB0E1C22D1E9004F9DA7 /* main.m in Sources */,
+				54BAEB0D1C22D1E9004F9DA7 /* AppDelegate.m in Sources */,
+				54BAEB241C22DEAE004F9DA7 /* WSPublishController.m in Sources */,
+				54BAEB1B1C22DE7C004F9DA7 /* WSFriendController.m in Sources */,
+				54BAEB211C22DE9E004F9DA7 /* WSNewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +514,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "01-百思不得姐框架搭建/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "wws.-1----------";
+				PRODUCT_BUNDLE_IDENTIFIER = "wws.-baisibudejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -273,10 +528,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "01-百思不得姐框架搭建/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "wws.-1----------";
+				PRODUCT_BUNDLE_IDENTIFIER = "wws.-baisibudejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
