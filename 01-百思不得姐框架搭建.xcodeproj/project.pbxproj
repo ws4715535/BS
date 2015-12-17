@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B8AFB91C22F9B800100392 /* WSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8AFB81C22F9B800100392 /* WSTabBar.m */; };
 		54BAEAE81C22D068004F9DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BAEAE61C22D068004F9DA7 /* Main.storyboard */; };
 		54BAEAEA1C22D068004F9DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BAEAE91C22D068004F9DA7 /* Assets.xcassets */; };
 		54BAEAED1C22D068004F9DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BAEAEB1C22D068004F9DA7 /* LaunchScreen.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54B8AFB71C22F9B800100392 /* WSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTabBar.h; sourceTree = "<group>"; };
+		54B8AFB81C22F9B800100392 /* WSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTabBar.m; sourceTree = "<group>"; };
 		54BAEADA1C22D068004F9DA7 /* 01-百思不得姐框架搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-百思不得姐框架搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BAEAE71C22D068004F9DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54BAEAE91C22D068004F9DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 		54BAEB121C22DDC0004F9DA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				54B8AFB71C22F9B800100392 /* WSTabBar.h */,
+				54B8AFB81C22F9B800100392 /* WSTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				54BAEB0E1C22D1E9004F9DA7 /* main.m in Sources */,
 				54BAEB0D1C22D1E9004F9DA7 /* AppDelegate.m in Sources */,
 				54BAEB241C22DEAE004F9DA7 /* WSPublishController.m in Sources */,
+				54B8AFB91C22F9B800100392 /* WSTabBar.m in Sources */,
 				54BAEB1B1C22DE7C004F9DA7 /* WSFriendController.m in Sources */,
 				54BAEB211C22DE9E004F9DA7 /* WSNewController.m in Sources */,
 			);
@@ -557,6 +563,7 @@
 				54BAEAF31C22D068004F9DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
