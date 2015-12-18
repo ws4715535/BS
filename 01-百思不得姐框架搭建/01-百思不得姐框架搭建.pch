@@ -1,0 +1,25 @@
+//
+//  01-百思不得姐框架搭建.pch
+//  01-百思不得姐框架搭建
+//
+//  Created by Ws on 15/12/18.
+//  Copyright © 2015年 Ws. All rights reserved.
+//
+//OC文件
+#ifdef __OBJC__
+#import "UIImage+Original.h"
+#import "UIView+Frame.h"
+
+//调试阶段
+#define DEBUG
+#define WSLog(...) NSLog(__VA_ARGS__)
+//发布阶段
+#else
+#define WSLog(...)
+
+
+#endif
+
+
+#define WSFunc WSLog(@"%s",__func__)
+

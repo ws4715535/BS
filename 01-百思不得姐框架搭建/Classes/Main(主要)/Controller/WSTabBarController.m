@@ -34,8 +34,10 @@
 //    self.tabBar = tabbar; readOnly 可以通过kvc来搞
 //    readOnly : 没有set方法
 //    [self setValue:@"tabbar" forKeyPath:@"tabBar"];
+    self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbar-light"];
+    
     [self setValue:tabbar forKeyPath:@"tabBar"];
-  
+
 }
 
 //加载控制器的时候就会调用这个方法

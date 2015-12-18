@@ -59,7 +59,6 @@
     //让加号按钮居中
     self.plusButton.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height * 0.5);
     //控件不显示的原因  : alpha = 0  隐藏 没尺寸 没添加到view
-
 }
 
 @end
