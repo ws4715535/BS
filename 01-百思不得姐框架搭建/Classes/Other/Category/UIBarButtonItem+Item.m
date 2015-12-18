@@ -1,8 +1,7 @@
 //
 //  UIBarButtonItem+Item.m
-//  01-百思不得姐框架搭建
 //
-//  Created by Ws on 15/12/18.
+//  Created by Ws on 15/8/18.
 //  Copyright © 2015年 Ws. All rights reserved.
 //
 
@@ -45,18 +44,6 @@
     return [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
-//+ (UIBarButtonItem *)itemWithImage:(UIImage *)image selImage:(UIImage *)selImage target:(nullable id)target action:(nullable SEL)action
-//{
-//    UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [leftButton setImage:image forState:UIControlStateNormal];
-//    [leftButton setImage:selImage forState:UIControlStateSelected];
-//    // 自适应尺寸:自动根据按钮图片和文字计算按钮大小
-//    [leftButton sizeToFit];
-//    [leftButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-//    
-//    return  [[UIBarButtonItem alloc] initWithCustomView:leftButton];
-//    
-//}
 
 
 

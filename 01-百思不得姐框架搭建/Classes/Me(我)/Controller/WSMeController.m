@@ -33,6 +33,8 @@
     //添加导航控制器左边的按钮
     self.navigationItem.rightBarButtonItems = @[settingButton ,moonButton];
     
+    self.navigationItem.title = @"我的";
+
 }
 
 //夜间模式处理

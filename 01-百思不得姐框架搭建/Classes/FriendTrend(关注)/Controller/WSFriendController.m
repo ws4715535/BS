@@ -19,6 +19,9 @@
 
 
 - (void)setUpNavigationItem {
+    
+    
+    
     //设置顶部背景 (纯白不透明 ,用的是图片)
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     //设置导航条按钮
@@ -27,6 +30,7 @@
     //添加导航控制器左边的按钮
     self.navigationItem.leftBarButtonItem = leftButton;
     
+    self.navigationItem.title = @"我的关注";
 }
 
 - (void)RecommentIconClick {

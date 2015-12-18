@@ -22,6 +22,7 @@
 		54BAEB281C22E89D004F9DA7 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */; };
 		54BF64741C2431DA00DD6B90 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF64731C2431DA00DD6B90 /* UIView+Frame.m */; };
 		54BF64771C243C1700DD6B90 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF64761C243C1700DD6B90 /* UIBarButtonItem+Item.m */; };
+		54BF647A1C24536F00DD6B90 /* WSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF64791C24536F00DD6B90 /* WSNavigationController.m */; };
 		8122039780B304EA5FF525D8 /* libPods-01-百思不得姐框架搭建.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41379CA645A569B3F7228E /* libPods-01-百思不得姐框架搭建.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		54BF64731C2431DA00DD6B90 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		54BF64751C243C1700DD6B90 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		54BF64761C243C1700DD6B90 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		54BF64781C24536F00DD6B90 /* WSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNavigationController.h; sourceTree = "<group>"; };
+		54BF64791C24536F00DD6B90 /* WSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNavigationController.m; sourceTree = "<group>"; };
 		DFD6F519214FF39998338FF0 /* Pods-01-百思不得姐框架搭建.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-百思不得姐框架搭建.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-百思不得姐框架搭建/Pods-01-百思不得姐框架搭建.release.xcconfig"; sourceTree = "<group>"; };
 		E1F5D66F154E45E354237D0C /* Pods-01-百思不得姐框架搭建.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-百思不得姐框架搭建.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-百思不得姐框架搭建/Pods-01-百思不得姐框架搭建.debug.xcconfig"; sourceTree = "<group>"; };
 		EE41379CA645A569B3F7228E /* libPods-01-百思不得姐框架搭建.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-百思不得姐框架搭建.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,9 +128,9 @@
 			children = (
 				54BAEB0F1C22DDC0004F9DA7 /* Main(主要) */,
 				54BAEAF51C22D1E9004F9DA7 /* Essence(精华) */,
+				54BAEB011C22D1E9004F9DA7 /* New(新帖) */,
 				54BAEAF91C22D1E9004F9DA7 /* FriendTrend(关注) */,
 				54BAEAFD1C22D1E9004F9DA7 /* Me(我) */,
-				54BAEB011C22D1E9004F9DA7 /* New(新帖) */,
 				54BAEB051C22D1E9004F9DA7 /* Other */,
 				54BAEB091C22D1E9004F9DA7 /* Publish(发布) */,
 			);
@@ -325,6 +328,8 @@
 			children = (
 				54BAEB131C22DDDE004F9DA7 /* WSTabBarController.h */,
 				54BAEB141C22DDDE004F9DA7 /* WSTabBarController.m */,
+				54BF64781C24536F00DD6B90 /* WSNavigationController.h */,
+				54BF64791C24536F00DD6B90 /* WSNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -492,6 +497,7 @@
 				54BF64771C243C1700DD6B90 /* UIBarButtonItem+Item.m in Sources */,
 				54BAEB181C22DE35004F9DA7 /* WSEssenceController.m in Sources */,
 				54BAEB1E1C22DE91004F9DA7 /* WSMeController.m in Sources */,
+				54BF647A1C24536F00DD6B90 /* WSNavigationController.m in Sources */,
 				54BAEB151C22DDDE004F9DA7 /* WSTabBarController.m in Sources */,
 				54BAEB0E1C22D1E9004F9DA7 /* main.m in Sources */,
 				54BAEB0D1C22D1E9004F9DA7 /* AppDelegate.m in Sources */,

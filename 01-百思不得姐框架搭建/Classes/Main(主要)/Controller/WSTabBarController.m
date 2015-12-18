@@ -16,7 +16,7 @@
 
 #import "UIImage+Original.h"
 
-
+#import "WSNavigationController.h"
 
 #define WSRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define WSFontSize [UIFont systemFontOfSize:12]
@@ -65,29 +65,35 @@
     
 }
 
+//重写addChildViewController方法,让他们都是WSNaVigationController,包装成导航控制器
+- (void)addChildViewController:(UIViewController *)childController {
+    
+    WSNavigationController *navi = [[WSNavigationController alloc]initWithRootViewController:childController];
+    //调用super的这个方法,可以确保导航控制器能被添加为自控制器,否则方法重写原功能失效
+    [super addChildViewController:navi];
+}
+
+
 
 
 //设置所有的子控制器
 - (void)setUpAllChildViewControllers {
     //1.精华
     WSEssenceController *essenVC = [[WSEssenceController alloc]init];
-    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:essenVC];
-    [self addChildViewController:nav1];
+    
+    [self addChildViewController:essenVC];
     //2.新帖
     WSNewController *newVC = [[WSNewController alloc]init];
-    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:newVC];
-    [self addChildViewController:nav2];
+    [self addChildViewController:newVC];
     //3.发布
 //    WSPublishController *publishVC = [[WSPublishController alloc]init];
 //    [self addChildViewController:publishVC];
     //4.关注
     WSFriendController *friendVC = [[WSFriendController alloc]init];
-    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:friendVC];
-    [self addChildViewController:nav3];
+     [self addChildViewController:friendVC];
     //5.我
     WSMeController *meVC = [[WSMeController alloc]init];
-    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:meVC];
-    [self addChildViewController:nav4];
+    [self addChildViewController:meVC];
 }
 
 //设置TabbarItem样式
