@@ -20,6 +20,7 @@
 		54BAEB211C22DE9E004F9DA7 /* WSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB201C22DE9E004F9DA7 /* WSNewController.m */; };
 		54BAEB241C22DEAE004F9DA7 /* WSPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB231C22DEAE004F9DA7 /* WSPublishController.m */; };
 		54BAEB281C22E89D004F9DA7 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */; };
+		8122039780B304EA5FF525D8 /* libPods-01-百思不得姐框架搭建.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41379CA645A569B3F7228E /* libPods-01-百思不得姐框架搭建.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,9 @@
 		54BAEB231C22DEAE004F9DA7 /* WSPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPublishController.m; sourceTree = "<group>"; };
 		54BAEB261C22E89D004F9DA7 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
 		54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
+		DFD6F519214FF39998338FF0 /* Pods-01-百思不得姐框架搭建.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-百思不得姐框架搭建.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-百思不得姐框架搭建/Pods-01-百思不得姐框架搭建.release.xcconfig"; sourceTree = "<group>"; };
+		E1F5D66F154E45E354237D0C /* Pods-01-百思不得姐框架搭建.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-百思不得姐框架搭建.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-百思不得姐框架搭建/Pods-01-百思不得姐框架搭建.debug.xcconfig"; sourceTree = "<group>"; };
+		EE41379CA645A569B3F7228E /* libPods-01-百思不得姐框架搭建.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-百思不得姐框架搭建.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +58,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8122039780B304EA5FF525D8 /* libPods-01-百思不得姐框架搭建.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE895376E4133B26C1E9B27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5D66F154E45E354237D0C /* Pods-01-百思不得姐框架搭建.debug.xcconfig */,
+				DFD6F519214FF39998338FF0 /* Pods-01-百思不得姐框架搭建.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		54BAEAD11C22D068004F9DA7 = {
 			isa = PBXGroup;
 			children = (
 				54BAEADC1C22D068004F9DA7 /* 01-百思不得姐框架搭建 */,
 				54BAEADB1C22D068004F9DA7 /* Products */,
+				0FE895376E4133B26C1E9B27 /* Pods */,
+				85FC11C75F9A6915257D6ACE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -330,6 +346,14 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		85FC11C75F9A6915257D6ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE41379CA645A569B3F7228E /* libPods-01-百思不得姐框架搭建.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,9 +361,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54BAEAF11C22D068004F9DA7 /* Build configuration list for PBXNativeTarget "01-百思不得姐框架搭建" */;
 			buildPhases = (
+				F5E4AD731D02EAC2E0505B84 /* Check Pods Manifest.lock */,
 				54BAEAD61C22D068004F9DA7 /* Sources */,
 				54BAEAD71C22D068004F9DA7 /* Frameworks */,
 				54BAEAD81C22D068004F9DA7 /* Resources */,
+				63695DD47518B801256C986B /* Embed Pods Frameworks */,
+				D8E837844885CA750609E261 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,6 +422,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63695DD47518B801256C986B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-百思不得姐框架搭建/Pods-01-百思不得姐框架搭建-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E837844885CA750609E261 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-百思不得姐框架搭建/Pods-01-百思不得姐框架搭建-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E4AD731D02EAC2E0505B84 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54BAEAD61C22D068004F9DA7 /* Sources */ = {
@@ -518,6 +593,7 @@
 		};
 		54BAEAF21C22D068004F9DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F5D66F154E45E354237D0C /* Pods-01-百思不得姐框架搭建.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -532,6 +608,7 @@
 		};
 		54BAEAF31C22D068004F9DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD6F519214FF39998338FF0 /* Pods-01-百思不得姐框架搭建.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
