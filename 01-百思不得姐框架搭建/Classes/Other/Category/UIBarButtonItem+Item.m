@@ -44,7 +44,27 @@
     return [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
-
++ (UIBarButtonItem *)backItemWithImage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action norColor:(UIColor *)norColor highColor:(UIColor *)highColor title:(NSString *)title {
+    
+    UIButton *button = [[UIButton alloc]init];
+    [button setImage:image forState:UIControlStateNormal];
+    [button setImage:highImage forState:UIControlStateHighlighted];
+    
+    [button setTitle:title forState:UIControlStateNormal];
+    [button setTitle:title forState:UIControlStateHighlighted];
+    
+    [button setTitleColor:norColor forState:UIControlStateNormal];
+    [button setTitleColor:highColor forState:UIControlStateHighlighted];
+    
+    //添加点击事件
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    //设置内边距
+//    [button setImageEdgeInsets:UIEdgeInsetsMake(0, -20, 0, 0)];
+    
+    [button sizeToFit];
+    
+    return [[UIBarButtonItem alloc]initWithCustomView:button];
+}
 
 
 

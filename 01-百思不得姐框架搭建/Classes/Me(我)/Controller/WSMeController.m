@@ -8,6 +8,8 @@
 
 #import "WSMeController.h"
 #import "UIBarButtonItem+Item.h"
+#import "WSSettingViewController.h"
+
 @implementation WSMeController
 
 
@@ -46,6 +48,14 @@
 
 - (void)settingClick {
     
-    WSFunc;
+    //push操作
+    WSSettingViewController *settingVC = [[WSSettingViewController alloc]init];
+    
+    //Push之前取消bottomBar 可以隐藏掉底部栏
+    [self hidesBottomBarWhenPushed];
+    [self.navigationController pushViewController:settingVC animated:YES];
+    
+    
+    
 }
 @end

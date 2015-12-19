@@ -10,6 +10,13 @@
 #import "UIImage+Original.h"
 #import "UIView+Frame.h"
 
+#define WSScreenW [UIScreen mainScreen].bounds.size.width
+#define WSScreenH [UIScreen mainScreen].bounds.size.height
+/*屏幕尺寸*/
+#define iPhone6 ([UIScreen mainScreen].bounds.size.height == 667)
+#define iPhone6P ([UIScreen mainScreen].bounds.size.height == 736)
+#define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)
+#define iPhone4 ([UIScreen mainScreen].bounds.size.height == 480)
 //调试阶段
 #define DEBUG
 #define WSLog(...) NSLog(__VA_ARGS__)

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WSTabBarController.h"
+#import "WSAdVC.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //设置window的rootController
-    WSTabBarController *rootController = [[WSTabBarController alloc]init];
+    WSAdVC *rootController = [[WSAdVC alloc]init];
     self.window.rootViewController = rootController; 
     [self.window makeKeyAndVisible];
     return YES;
