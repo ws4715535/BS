@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5435BAA01C25A42C002F92EB /* AdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435BA9F1C25A42C002F92EB /* AdItem.m */; };
+		548C0A9E1C26AA4E00AD1181 /* WSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0A9D1C26AA4E00AD1181 /* WSRecommendController.m */; };
+		548C0AA21C26AC3C00AD1181 /* WSRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AA01C26AC3C00AD1181 /* WSRecommendCell.m */; };
+		548C0AA31C26AC3C00AD1181 /* WSRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548C0AA11C26AC3C00AD1181 /* WSRecommendCell.xib */; };
+		548C0AA61C26AC5400AD1181 /* RecommendItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AA51C26AC5400AD1181 /* RecommendItem.m */; };
+		548C0AA91C26DD4500AD1181 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AA81C26DD4500AD1181 /* UIImage+Antialias.m */; };
 		54958B081C2529500037881F /* WSAdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54958B071C2529500037881F /* WSAdVC.m */; };
 		54958B0A1C2529FF0037881F /* WSAdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54958B091C2529FF0037881F /* WSAdVC.xib */; };
 		54958B131C252E0C0037881F /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54958B0C1C252E0C0037881F /* LaunchImage-568h@2x.png */; };
@@ -40,6 +45,15 @@
 /* Begin PBXFileReference section */
 		5435BA9E1C25A42C002F92EB /* AdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdItem.h; sourceTree = "<group>"; };
 		5435BA9F1C25A42C002F92EB /* AdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdItem.m; sourceTree = "<group>"; };
+		548C0A9C1C26AA4E00AD1181 /* WSRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRecommendController.h; sourceTree = "<group>"; };
+		548C0A9D1C26AA4E00AD1181 /* WSRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRecommendController.m; sourceTree = "<group>"; };
+		548C0A9F1C26AC3C00AD1181 /* WSRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRecommendCell.h; sourceTree = "<group>"; };
+		548C0AA01C26AC3C00AD1181 /* WSRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRecommendCell.m; sourceTree = "<group>"; };
+		548C0AA11C26AC3C00AD1181 /* WSRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSRecommendCell.xib; sourceTree = "<group>"; };
+		548C0AA41C26AC5400AD1181 /* RecommendItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendItem.h; sourceTree = "<group>"; };
+		548C0AA51C26AC5400AD1181 /* RecommendItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendItem.m; sourceTree = "<group>"; };
+		548C0AA71C26DD4500AD1181 /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
+		548C0AA81C26DD4500AD1181 /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
 		54958B061C2529500037881F /* WSAdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAdVC.h; sourceTree = "<group>"; };
 		54958B071C2529500037881F /* WSAdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAdVC.m; sourceTree = "<group>"; };
 		54958B091C2529FF0037881F /* WSAdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSAdVC.xib; sourceTree = "<group>"; };
@@ -329,6 +343,8 @@
 			children = (
 				54BAEB1F1C22DE9E004F9DA7 /* WSNewController.h */,
 				54BAEB201C22DE9E004F9DA7 /* WSNewController.m */,
+				548C0A9C1C26AA4E00AD1181 /* WSRecommendController.h */,
+				548C0A9D1C26AA4E00AD1181 /* WSRecommendController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -336,6 +352,8 @@
 		54BAEB031C22D1E9004F9DA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				548C0AA41C26AC5400AD1181 /* RecommendItem.h */,
+				548C0AA51C26AC5400AD1181 /* RecommendItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -343,6 +361,9 @@
 		54BAEB041C22D1E9004F9DA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				548C0A9F1C26AC3C00AD1181 /* WSRecommendCell.h */,
+				548C0AA01C26AC3C00AD1181 /* WSRecommendCell.m */,
+				548C0AA11C26AC3C00AD1181 /* WSRecommendCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -435,6 +456,8 @@
 				54BAEB271C22E89D004F9DA7 /* UIImage+Original.m */,
 				54BF64721C2431DA00DD6B90 /* UIView+Frame.h */,
 				54BF64731C2431DA00DD6B90 /* UIView+Frame.m */,
+				548C0AA71C26DD4500AD1181 /* UIImage+Antialias.h */,
+				548C0AA81C26DD4500AD1181 /* UIImage+Antialias.m */,
 				54BF64751C243C1700DD6B90 /* UIBarButtonItem+Item.h */,
 				54BF64761C243C1700DD6B90 /* UIBarButtonItem+Item.m */,
 			);
@@ -543,6 +566,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548C0AA31C26AC3C00AD1181 /* WSRecommendCell.xib in Resources */,
 				54BAEAED1C22D068004F9DA7 /* LaunchScreen.storyboard in Resources */,
 				54958B171C252E0C0037881F /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				54BAEAEA1C22D068004F9DA7 /* Assets.xcassets in Resources */,
@@ -612,19 +636,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548C0AA91C26DD4500AD1181 /* UIImage+Antialias.m in Sources */,
 				54BAEB281C22E89D004F9DA7 /* UIImage+Original.m in Sources */,
 				54BF64771C243C1700DD6B90 /* UIBarButtonItem+Item.m in Sources */,
 				54BAEB181C22DE35004F9DA7 /* WSEssenceController.m in Sources */,
 				54958B081C2529500037881F /* WSAdVC.m in Sources */,
 				54BF64811C24620300DD6B90 /* WSSettingViewController.m in Sources */,
 				54BAEB1E1C22DE91004F9DA7 /* WSMeController.m in Sources */,
+				548C0A9E1C26AA4E00AD1181 /* WSRecommendController.m in Sources */,
 				54BF647A1C24536F00DD6B90 /* WSNavigationController.m in Sources */,
+				548C0AA61C26AC5400AD1181 /* RecommendItem.m in Sources */,
 				5435BAA01C25A42C002F92EB /* AdItem.m in Sources */,
 				54BAEB151C22DDDE004F9DA7 /* WSTabBarController.m in Sources */,
 				54BAEB0E1C22D1E9004F9DA7 /* main.m in Sources */,
 				54BAEB0D1C22D1E9004F9DA7 /* AppDelegate.m in Sources */,
 				54BAEB241C22DEAE004F9DA7 /* WSPublishController.m in Sources */,
 				54B8AFB91C22F9B800100392 /* WSTabBar.m in Sources */,
+				548C0AA21C26AC3C00AD1181 /* WSRecommendCell.m in Sources */,
 				54BAEB1B1C22DE7C004F9DA7 /* WSFriendController.m in Sources */,
 				54BAEB211C22DE9E004F9DA7 /* WSNewController.m in Sources */,
 				54BF64741C2431DA00DD6B90 /* UIView+Frame.m in Sources */,

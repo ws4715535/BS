@@ -99,7 +99,7 @@
     
     static int time = 3;
     self.jumpBtn.titleLabel.text = [NSString stringWithFormat:@"跳过(%d)",time];
-    if (time == 0) {
+    if (time == -1) {
         //和点击跳过效果一个,所以执行那个方法
         [self jumpClick];
         return;

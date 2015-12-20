@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recommend" rowHeight="80" id="KGk-i7-Jjw" customClass="WSRecommendCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W4I-4y-ZoG">
+                        <rect key="frame" x="20" y="15" width="50" height="50"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="IKO-r1-UiX"/>
+                            <constraint firstAttribute="width" constant="50" id="JwL-dl-OZj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Fp-MP-WYr">
+                        <rect key="frame" x="89" y="15" width="42" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdW-5o-nyh">
+                        <rect key="frame" x="89" y="47" width="38" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWh-1k-qGz">
+                        <rect key="frame" x="285" y="25" width="60" height="25"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="7yv-yl-Yeo"/>
+                            <constraint firstAttribute="width" constant="60" id="kxS-1y-zip"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="+ 订阅" backgroundImage="tagButtonBG">
+                            <color key="titleColor" red="1" green="0.1654957041" blue="0.2254181143" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="tagButtonBGClick"/>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="4Fp-MP-WYr" firstAttribute="leading" secondItem="W4I-4y-ZoG" secondAttribute="trailing" constant="19" id="KOp-OR-WaR"/>
+                    <constraint firstItem="PdW-5o-nyh" firstAttribute="leading" secondItem="4Fp-MP-WYr" secondAttribute="leading" id="SdG-7c-rib"/>
+                    <constraint firstItem="PdW-5o-nyh" firstAttribute="bottom" secondItem="W4I-4y-ZoG" secondAttribute="bottom" id="Tza-wv-NMX"/>
+                    <constraint firstItem="bWh-1k-qGz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="Xh4-Xv-FTz"/>
+                    <constraint firstItem="4Fp-MP-WYr" firstAttribute="top" secondItem="W4I-4y-ZoG" secondAttribute="top" id="jfa-UP-gS4"/>
+                    <constraint firstItem="W4I-4y-ZoG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="lAq-kC-q8W"/>
+                    <constraint firstAttribute="trailing" secondItem="bWh-1k-qGz" secondAttribute="trailing" constant="30" id="qBK-gg-6Ji"/>
+                    <constraint firstItem="W4I-4y-ZoG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="t8W-Nn-gmj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="tagNameLabel" destination="4Fp-MP-WYr" id="21i-HJ-5mX"/>
+                <outlet property="tagPicView" destination="W4I-4y-ZoG" id="qB4-df-zCp"/>
+                <outlet property="tagSubLabel" destination="PdW-5o-nyh" id="yrx-EJ-PNa"/>
+            </connections>
+            <point key="canvasLocation" x="298.5" y="309"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tagButtonBG" width="80" height="31"/>
+        <image name="tagButtonBGClick" width="80" height="31"/>
+    </resources>
+</document>

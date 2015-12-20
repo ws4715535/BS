@@ -23,7 +23,7 @@
     //设置它的富文本属性
     NSMutableDictionary *attri = [NSMutableDictionary dictionary];
     
-    attri[NSFontAttributeName] = [UIFont systemFontOfSize:17];
+    attri[NSFontAttributeName] = [UIFont systemFontOfSize:19];
     //attrubutes
     [navBar setTitleTextAttributes:attri];
 }

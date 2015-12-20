@@ -33,6 +33,7 @@
                     <state key="normal" title="跳过(3)">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </state>
+                    <state key="highlighted" title="跳过"/>
                     <connections>
                         <action selector="jumpClick" destination="-1" eventType="touchUpInside" id="7rB-hR-fBk"/>
                     </connections>

@@ -8,6 +8,7 @@
 
 #import "WSNewController.h"
 #import "UIBarButtonItem+Item.h"
+#import "WSRecommendController.h"
 
 @implementation WSNewController
 
@@ -34,9 +35,13 @@
     self.navigationItem.leftBarButtonItem = leftButton;
 
 }
-
+#pragma mark -    //跳转到推荐标签
 - (void)TagSubIconClick {
-    WSFunc;
+
+    WSRecommendController *recommend = [[WSRecommendController alloc]init];
+    
+    [self.navigationController pushViewController:recommend animated:YES];
+    
 }
 
 @end
