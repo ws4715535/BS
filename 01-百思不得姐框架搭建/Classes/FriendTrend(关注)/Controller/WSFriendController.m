@@ -8,13 +8,20 @@
 
 #import "WSFriendController.h"
 #import "UIBarButtonItem+Item.h"
-
+#import "WSIoginLunachController.h"
 @implementation WSFriendController
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor yellowColor];
+//    self.view.backgroundColor = [UIColor yellowColor];
     [self setUpNavigationItem];
+}
+
+- (IBAction)loginLunachBtn {
+    
+    WSIoginLunachController *loginController = [[WSIoginLunachController alloc]init];
+    [self presentModalViewController:loginController animated:YES];
+    
 }
 
 

@@ -51,6 +51,7 @@
                 <constraint firstItem="s7j-az-WqN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="pdI-lZ-ybH"/>
                 <constraint firstAttribute="bottom" secondItem="O3g-Qi-fey" secondAttribute="bottom" id="upJ-om-tzR"/>
             </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="270.5" y="183.5"/>
         </view>

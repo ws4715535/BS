@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5435BAA01C25A42C002F92EB /* AdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435BA9F1C25A42C002F92EB /* AdItem.m */; };
+		543EEF111C28285400F4077D /* WSFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 543EEF101C28285400F4077D /* WSFastLoginView.m */; };
+		543EEF131C28287300F4077D /* WSFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 543EEF121C28287300F4077D /* WSFastLoginView.xib */; };
+		543EEF161C282D8800F4077D /* WSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 543EEF151C282D8800F4077D /* WSButton.m */; };
+		543EEF191C28363E00F4077D /* WSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 543EEF181C28363E00F4077D /* WSTextField.m */; };
 		548C0A9E1C26AA4E00AD1181 /* WSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0A9D1C26AA4E00AD1181 /* WSRecommendController.m */; };
 		548C0AA21C26AC3C00AD1181 /* WSRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AA01C26AC3C00AD1181 /* WSRecommendCell.m */; };
 		548C0AA31C26AC3C00AD1181 /* WSRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548C0AA11C26AC3C00AD1181 /* WSRecommendCell.xib */; };
 		548C0AA61C26AC5400AD1181 /* RecommendItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AA51C26AC5400AD1181 /* RecommendItem.m */; };
 		548C0AA91C26DD4500AD1181 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AA81C26DD4500AD1181 /* UIImage+Antialias.m */; };
+		548C0AAB1C26F24B00AD1181 /* WSFriendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548C0AAA1C26F24B00AD1181 /* WSFriendController.xib */; };
+		548C0AAF1C26F73A00AD1181 /* WSIoginLunachController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AAD1C26F73A00AD1181 /* WSIoginLunachController.m */; };
+		548C0AB01C26F73A00AD1181 /* WSIoginLunachController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548C0AAE1C26F73A00AD1181 /* WSIoginLunachController.xib */; };
+		548C0AB31C2710CD00AD1181 /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C0AB21C2710CD00AD1181 /* WSLoginView.m */; };
+		548C0AB51C2710DC00AD1181 /* WSLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548C0AB41C2710DC00AD1181 /* WSLoginView.xib */; };
 		54958B081C2529500037881F /* WSAdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54958B071C2529500037881F /* WSAdVC.m */; };
 		54958B0A1C2529FF0037881F /* WSAdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54958B091C2529FF0037881F /* WSAdVC.xib */; };
 		54958B131C252E0C0037881F /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54958B0C1C252E0C0037881F /* LaunchImage-568h@2x.png */; };
@@ -45,6 +54,13 @@
 /* Begin PBXFileReference section */
 		5435BA9E1C25A42C002F92EB /* AdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdItem.h; sourceTree = "<group>"; };
 		5435BA9F1C25A42C002F92EB /* AdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdItem.m; sourceTree = "<group>"; };
+		543EEF0F1C28285400F4077D /* WSFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSFastLoginView.h; sourceTree = "<group>"; };
+		543EEF101C28285400F4077D /* WSFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSFastLoginView.m; sourceTree = "<group>"; };
+		543EEF121C28287300F4077D /* WSFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSFastLoginView.xib; sourceTree = "<group>"; };
+		543EEF141C282D8800F4077D /* WSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSButton.h; sourceTree = "<group>"; };
+		543EEF151C282D8800F4077D /* WSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSButton.m; sourceTree = "<group>"; };
+		543EEF171C28363E00F4077D /* WSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTextField.h; sourceTree = "<group>"; };
+		543EEF181C28363E00F4077D /* WSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTextField.m; sourceTree = "<group>"; };
 		548C0A9C1C26AA4E00AD1181 /* WSRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRecommendController.h; sourceTree = "<group>"; };
 		548C0A9D1C26AA4E00AD1181 /* WSRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRecommendController.m; sourceTree = "<group>"; };
 		548C0A9F1C26AC3C00AD1181 /* WSRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRecommendCell.h; sourceTree = "<group>"; };
@@ -54,6 +70,13 @@
 		548C0AA51C26AC5400AD1181 /* RecommendItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendItem.m; sourceTree = "<group>"; };
 		548C0AA71C26DD4500AD1181 /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
 		548C0AA81C26DD4500AD1181 /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
+		548C0AAA1C26F24B00AD1181 /* WSFriendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSFriendController.xib; sourceTree = "<group>"; };
+		548C0AAC1C26F73A00AD1181 /* WSIoginLunachController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIoginLunachController.h; sourceTree = "<group>"; };
+		548C0AAD1C26F73A00AD1181 /* WSIoginLunachController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIoginLunachController.m; sourceTree = "<group>"; };
+		548C0AAE1C26F73A00AD1181 /* WSIoginLunachController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSIoginLunachController.xib; sourceTree = "<group>"; };
+		548C0AB11C2710CD00AD1181 /* WSLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginView.h; sourceTree = "<group>"; };
+		548C0AB21C2710CD00AD1181 /* WSLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginView.m; sourceTree = "<group>"; };
+		548C0AB41C2710DC00AD1181 /* WSLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSLoginView.xib; sourceTree = "<group>"; };
 		54958B061C2529500037881F /* WSAdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAdVC.h; sourceTree = "<group>"; };
 		54958B071C2529500037881F /* WSAdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAdVC.m; sourceTree = "<group>"; };
 		54958B091C2529FF0037881F /* WSAdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSAdVC.xib; sourceTree = "<group>"; };
@@ -277,6 +300,10 @@
 			children = (
 				54BAEB191C22DE7C004F9DA7 /* WSFriendController.h */,
 				54BAEB1A1C22DE7C004F9DA7 /* WSFriendController.m */,
+				548C0AAA1C26F24B00AD1181 /* WSFriendController.xib */,
+				548C0AAC1C26F73A00AD1181 /* WSIoginLunachController.h */,
+				548C0AAD1C26F73A00AD1181 /* WSIoginLunachController.m */,
+				548C0AAE1C26F73A00AD1181 /* WSIoginLunachController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +318,16 @@
 		54BAEAFC1C22D1E9004F9DA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				548C0AB11C2710CD00AD1181 /* WSLoginView.h */,
+				548C0AB21C2710CD00AD1181 /* WSLoginView.m */,
+				548C0AB41C2710DC00AD1181 /* WSLoginView.xib */,
+				543EEF0F1C28285400F4077D /* WSFastLoginView.h */,
+				543EEF101C28285400F4077D /* WSFastLoginView.m */,
+				543EEF121C28287300F4077D /* WSFastLoginView.xib */,
+				543EEF141C282D8800F4077D /* WSButton.h */,
+				543EEF151C282D8800F4077D /* WSButton.m */,
+				543EEF171C28363E00F4077D /* WSTextField.h */,
+				543EEF181C28363E00F4077D /* WSTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -566,11 +603,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543EEF131C28287300F4077D /* WSFastLoginView.xib in Resources */,
 				548C0AA31C26AC3C00AD1181 /* WSRecommendCell.xib in Resources */,
+				548C0AAB1C26F24B00AD1181 /* WSFriendController.xib in Resources */,
 				54BAEAED1C22D068004F9DA7 /* LaunchScreen.storyboard in Resources */,
 				54958B171C252E0C0037881F /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				54BAEAEA1C22D068004F9DA7 /* Assets.xcassets in Resources */,
+				548C0AB01C26F73A00AD1181 /* WSIoginLunachController.xib in Resources */,
 				54958B191C252E0C0037881F /* LaunchImage@2x.png in Resources */,
+				548C0AB51C2710DC00AD1181 /* WSLoginView.xib in Resources */,
 				54958B141C252E0C0037881F /* LaunchImage-700-568h@2x.png in Resources */,
 				54958B161C252E0C0037881F /* LaunchImage-800-667h@2x.png in Resources */,
 				54958B131C252E0C0037881F /* LaunchImage-568h@2x.png in Resources */,
@@ -637,6 +678,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				548C0AA91C26DD4500AD1181 /* UIImage+Antialias.m in Sources */,
+				548C0AAF1C26F73A00AD1181 /* WSIoginLunachController.m in Sources */,
+				543EEF111C28285400F4077D /* WSFastLoginView.m in Sources */,
+				543EEF161C282D8800F4077D /* WSButton.m in Sources */,
 				54BAEB281C22E89D004F9DA7 /* UIImage+Original.m in Sources */,
 				54BF64771C243C1700DD6B90 /* UIBarButtonItem+Item.m in Sources */,
 				54BAEB181C22DE35004F9DA7 /* WSEssenceController.m in Sources */,
@@ -651,7 +695,9 @@
 				54BAEB0E1C22D1E9004F9DA7 /* main.m in Sources */,
 				54BAEB0D1C22D1E9004F9DA7 /* AppDelegate.m in Sources */,
 				54BAEB241C22DEAE004F9DA7 /* WSPublishController.m in Sources */,
+				548C0AB31C2710CD00AD1181 /* WSLoginView.m in Sources */,
 				54B8AFB91C22F9B800100392 /* WSTabBar.m in Sources */,
+				543EEF191C28363E00F4077D /* WSTextField.m in Sources */,
 				548C0AA21C26AC3C00AD1181 /* WSRecommendCell.m in Sources */,
 				54BAEB1B1C22DE7C004F9DA7 /* WSFriendController.m in Sources */,
 				54BAEB211C22DE9E004F9DA7 /* WSNewController.m in Sources */,
@@ -769,7 +815,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "01-百思不得姐框架搭建/01-百思不得姐框架搭建.pch";
 				INFOPLIST_FILE = "01-百思不得姐框架搭建/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wws.-baisibudejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -785,7 +831,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "01-百思不得姐框架搭建/01-百思不得姐框架搭建.pch";
 				INFOPLIST_FILE = "01-百思不得姐框架搭建/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wws.-baisibudejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
